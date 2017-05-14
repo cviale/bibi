@@ -1,0 +1,45 @@
+/* TABLETTE < 767
+======================================================================================= */
+@media only screen and (max-width : 768px) {
+	/* === HOME === */
+	.homeTop {
+		margin: 0;
+	}
+		.gridWrapper {
+			top: 25vh;
+			height: 60%;
+			width: 58%;
+		}
+			.grid .grid-row {
+				height: calc(100%/15);
+			}
+			.grid .grid-row:nth-of-type(20),
+			.grid .grid-row:nth-of-type(19),
+			.grid .grid-row:nth-of-type(18),
+			.grid .grid-row:nth-of-type(17),
+			.grid .grid-row:nth-of-type(16) {
+				display: none;
+			}
+		.leftColum {
+			left: initial;
+			height: auto;
+			position: absolute;
+			top: 5vh;
+		}
+			.leftColum main {
+				position: static;
+				top: initial;
+				transform: none;
+			}
+	.homeBottom {
+		margin: 0;
+	}
+		.homeBottom section {
+			margin-left: 0;
+		}
+}
+/* MOBILE < 414
+======================================================================================= */
+@media only screen and (max-width : 414px) {
+
+}
