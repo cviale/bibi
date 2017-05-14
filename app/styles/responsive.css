@@ -2,41 +2,69 @@
 ======================================================================================= */
 @media only screen and (max-width : 768px) {
 	/* === HOME === */
+	body {
+		border: 10px solid #0e1042;
+	}
+		.container-fluid{
+			border: 10px solid #910202;
+			margin: 10px;
+			height: 82vh;
+		}
+
 	.homeTop {
 		margin: 0;
+		height: 50vh;
 	}
 		.gridWrapper {
-			top: 25vh;
-			height: 60%;
-			width: 58%;
+			top: 5vh;
+			height: 50%;
+			width: 50%;
+			padding: 0;
 		}
 			.grid .grid-row {
-				height: calc(100%/15);
+				height: calc(100%/8);
 			}
 			.grid .grid-row:nth-of-type(20),
 			.grid .grid-row:nth-of-type(19),
 			.grid .grid-row:nth-of-type(18),
 			.grid .grid-row:nth-of-type(17),
-			.grid .grid-row:nth-of-type(16) {
+			.grid .grid-row:nth-of-type(16),
+			.grid .grid-row:nth-of-type(15),
+			.grid .grid-row:nth-of-type(14),
+			.grid .grid-row:nth-of-type(13),
+			.grid .grid-row:nth-of-type(12),
+			.grid .grid-row:nth-of-type(11),
+			.grid .grid-row:nth-of-type(10),
+			.grid .grid-row:nth-of-type(9) {
 				display: none;
 			}
 		.leftColum {
 			left: initial;
 			height: auto;
-			position: absolute;
-			top: 5vh;
+			top: 8vh;
 		}
 			.leftColum main {
 				position: static;
 				top: initial;
 				transform: none;
 			}
+				.leftColum main h1 {
+					font-size: 14vw;
+				}
 	.homeBottom {
 		margin: 0;
+		position: relative;
+		bottom: -4vh;
 	}
 		.homeBottom section {
 			margin-left: 0;
 		}
+			.homeBottom section form {
+				margin: 0 0 20px 0;
+			}
+				.homeBottom section form input {
+					width: 82%;
+				}
 }
 /* MOBILE < 414
 ======================================================================================= */

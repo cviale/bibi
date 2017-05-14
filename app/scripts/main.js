@@ -8,4 +8,8 @@ $(document).ready(function() {
 			$(this).attr('placeholder', $(this).data('placeholder'));
 		});
 	});
+
+	$('body').on('touchmove', function (e) {
+		e.preventDefault();
+	});
 });
