@@ -53,7 +53,7 @@ gulp.task('html', ['styles', 'scripts'], () => {
     .pipe($.if(/\.js$/, $.uglify({compress: {drop_console: true}})))
     .pipe($.if(/\.css$/, $.cssnano({safe: true, autoprefixer: false})))
     .pipe($.if(/\.html$/, $.htmlmin({
-      collapseWhitespace: false,
+      collapseWhitespace: true,
       minifyCSS: true,
       minifyJS: {compress: {drop_console: true}},
       processConditionalComments: true,

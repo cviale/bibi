@@ -101,6 +101,13 @@ body {
 				color: #0e1042;
 				margin: 30px 0 10px 0;
 			}
+			.homeBottom section form .emptyFieldMessage {
+				margin: 0;
+				color: #910202;
+				font-weight: 600;
+				font-size: 11px;
+				display: none;
+			}
 			.homeBottom section form input {
 				padding: 14px 20px;
 				background: #0e1042;
@@ -110,6 +117,9 @@ body {
 				width: 50%;
 				color: #ffffff;
 				border-radius: 0;
+			}
+			.homeBottom section form.emptyField input {
+				border: 1px solid #910202;
 			}
 			.homeBottom section form input::-webkit-input-placeholder {
 				color: #ffffff;
