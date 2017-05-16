@@ -137,6 +137,14 @@ body {
 				border-radius: 0;
 			}
 
+.copyright {
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+	color: #9d9d9d;
+	font-size: 10px;
+}
+
 
 
 
